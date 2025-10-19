@@ -1,6 +1,6 @@
 # CPU Scheduling Simulator
 
-A comprehensive Python implementation of four fundamental CPU scheduling algorithms studied in Operating Systems courses. This project demonstrates process scheduling strategies, generates visual Gantt charts, and calculates performance metrics including turnaround time and waiting time.
+A comprehensive Python implementation of four fundamental CPU scheduling algorithms. This project demonstrates process scheduling strategies, generates visual Gantt charts, and calculates performance metrics including turnaround time and waiting time.
 
 ## Overview
 
@@ -77,7 +77,7 @@ cpu-scheduling-simulator/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/cpu-scheduling-simulator.git
+git clone https://github.com/jooryalzahrani/cpu-scheduling-simulator.git
 cd cpu-scheduling-simulator
 ```
 
@@ -216,15 +216,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Author
 
-[Your Name]
+Joory Alzahrani
 
-## Acknowledgments
 
-- Inspired by classical Operating Systems textbooks
-- Designed for educational purposes
-- Built as a portfolio project for internship applications
-
----
-
-**Last Updated:** October 2025  
-**Status:** Ready for Production

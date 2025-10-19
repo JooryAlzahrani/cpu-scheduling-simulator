@@ -1,4 +1,4 @@
-# CPU Scheduling Simulator
+# TaskVector: A CPU Scheduling Simulator
 
 A comprehensive Python implementation of four fundamental CPU scheduling algorithms. This project demonstrates process scheduling strategies, generates visual Gantt charts, and calculates performance metrics including turnaround time and waiting time.
 

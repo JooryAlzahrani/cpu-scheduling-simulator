@@ -1,8 +1,9 @@
 import sys
+import os
+
 sys.path.insert(0, '../')
 
-from algorithms import fcfs, sjf, round_robin, srtf
-
+from src.algorithms import fcfs, sjf, round_robin, srtf
 
 def test_fcfs_basic():
     processes = [
@@ -17,7 +18,7 @@ def test_fcfs_basic():
     assert stats[0]['pID'] == 'P1'
     assert stats[0]['tat'] == 8
     assert stats[0]['wt'] == 0
-    print("✓ FCFS basic test passed")
+    print("-- FCFS basic test passed")
 
 
 def test_fcfs_empty():
@@ -28,7 +29,7 @@ def test_fcfs_empty():
     assert stats == []
     assert avg_tat == 0
     assert avg_wt == 0
-    print("✓ FCFS empty test passed")
+    print("-- FCFS empty test passed")
 
 
 def test_sjf_basic():
@@ -42,7 +43,7 @@ def test_sjf_basic():
     
     assert len(stats) == 3
     assert stats[0]['pID'] == 'P1'
-    print("✓ SJF basic test passed")
+    print("-- SJF basic test passed")
 
 
 def test_sjf_empty():
@@ -51,7 +52,7 @@ def test_sjf_empty():
     
     assert gantt_chart == []
     assert stats == []
-    print("✓ SJF empty test passed")
+    print("-- SJF empty test passed")
 
 
 def test_round_robin_basic():
@@ -65,7 +66,7 @@ def test_round_robin_basic():
     
     assert len(stats) == 3
     assert len(gantt_chart) > 0
-    print("✓ Round Robin basic test passed")
+    print("-- Round Robin basic test passed")
 
 
 def test_round_robin_empty():
@@ -74,7 +75,7 @@ def test_round_robin_empty():
     
     assert gantt_chart == []
     assert stats == []
-    print("✓ Round Robin empty test passed")
+    print("-- Round Robin empty test passed")
 
 
 def test_srtf_basic():
@@ -88,7 +89,7 @@ def test_srtf_basic():
     
     assert len(stats) == 3
     assert len(gantt_chart) > 0
-    print("✓ SRTF basic test passed")
+    print("-- SRTF basic test passed")
 
 
 def test_srtf_empty():
@@ -97,7 +98,7 @@ def test_srtf_empty():
     
     assert gantt_chart == []
     assert stats == []
-    print("✓ SRTF empty test passed")
+    print("-- SRTF empty test passed")
 
 
 def test_all_algorithms_same_input():
@@ -115,7 +116,7 @@ def test_all_algorithms_same_input():
     assert len(sjf_stats) == 2
     assert len(rr_stats) == 2
     assert len(srtf_stats) == 2
-    print("✓ All algorithms test passed")
+    print("-- All algorithms test passed")
 
 
 if __name__ == "__main__":

@@ -186,19 +186,6 @@ Run tests with:
 python tests/test_algorithms.py
 ```
 
-## Use Cases
-
-- **Educational:** Learn operating system scheduling concepts
-- **Simulation:** Test scheduling strategies on custom workloads
-- **Comparison:** Analyze performance differences between algorithms
-- **Interview Prep:** Understand scheduling algorithm implementations
-
-##  Learning Resources
-
-- **Operating System Concepts** - Silberschatz, Galvin, Gagne
-- **CPU Scheduling Algorithms:** https://en.wikipedia.org/wiki/Scheduling_(computing)
-- **Gantt Charts:** https://en.wikipedia.org/wiki/Gantt_chart
-
 ## Contributing
 
 Contributions are welcome! Feel free to:

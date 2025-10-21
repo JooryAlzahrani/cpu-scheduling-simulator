@@ -120,14 +120,11 @@ Avg WT = 4.33
 ==================================================
 ```
 
-### Run Tests
-
+## Run the tests
 ```bash
-python tests/test_algorithms.py
-```
+python -m src.tests.test_algorithms
 
 Expected output:
-```
 ✓ FCFS basic test passed
 ✓ SJF basic test passed
 ✓ Round Robin basic test passed

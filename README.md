@@ -77,7 +77,7 @@ cpu-scheduling-simulator/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/jooryalzahrani/cpu-scheduling-simulator.git
+git clone https://github.com/JooryAlzahrani/cpu-scheduling-simulator.git
 cd cpu-scheduling-simulator
 ```
 
